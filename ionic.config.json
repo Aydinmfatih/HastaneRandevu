@@ -1,0 +1,7 @@
+{
+  "name": "HastaneDb_Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

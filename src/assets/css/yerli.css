@@ -1,0 +1,89 @@
+.uc-nokta-bir-satir {
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 150px;
+  height: 30;
+  /* Fallback for non-webkit */
+  margin: 0 auto;
+  /* font-size: 1px; */ 
+  line-height: 1.4;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.uc-nokta {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.div-card-radius {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+  border-radius: 7px;
+  height: 90px;
+}
+
+.div-card-radius h4 {
+  /* margin: 10px 0 5px 0;
+    padding-bottom: 5px;
+    border-bottom:1px solid lightgray; */
+  margin: 0;
+  padding-top: 15px;
+}
+
+.div-card-radius ion-icon {
+  font-size: 40px;
+  border: 1px solid #cc0000;
+  padding: 9px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 19px;
+  opacity: 0.2;
+}
+
+ion-col {
+  text-align: center;
+}
+
+.anasayfa-kategori {
+  height: 90px;
+  padding: 6px;
+  line-height: 90px;
+  text-align: center;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.anasayfa-kategori>div {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0 !important;
+  height: 92px;
+}
+
+.anasayfa-kategori>div>img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  max-height: 90px;
+}
+
+.anasayfa-kategori>div>small {
+  margin-top: 10px;
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "HastaneDb_Mobile",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
