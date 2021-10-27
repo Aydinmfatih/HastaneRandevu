@@ -7,6 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class Servis {
 
   servisAdresi = "http://localhost:47125/api";
+  
   constructor(public http: HttpClient) {
 
   }

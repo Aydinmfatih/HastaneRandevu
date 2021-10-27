@@ -43,7 +43,7 @@
 
 .div-card-radius ion-icon {
   font-size: 40px;
-  border: 1px solid #cc0000;
+  border: 1px solid black;
   padding: 9px;
   border-radius: 50%;
   position: absolute;
@@ -52,11 +52,12 @@
   margin-left: auto;
   margin-right: auto;
   top: 19px;
-  opacity: 0.2;
+  
 }
 
 ion-col {
   text-align: center;
+  
 }
 
 .anasayfa-kategori {
@@ -83,6 +84,7 @@ ion-col {
   border-radius: 10px;
   max-height: 90px;
 }
+
 
 .anasayfa-kategori>div>small {
   margin-top: 10px;

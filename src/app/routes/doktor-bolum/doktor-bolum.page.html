@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    {{ bolum.Adi }}
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="#hastane-anasayfa"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style="background-color: #f7f7f7">
+  <ion-item *ngFor="let doktor of doktorListesi">
+    <ion-thumbnail slot="start">
+      <img src="https://pbs.twimg.com/media/DOmccX5W4AE4tBx.jpg" />
+    </ion-thumbnail>
+    <ion-label class="card">
+      <h2>{{ doktor.Ad + ' ' + doktor.Soyad }}</h2>
+      <p>Anesteziyoloji UzmanDoktorumanı </p>
+    </ion-label>
+    <ion-button (click)="goDetails()" fill="outline" slot="end">detaylar</ion-button>
+  </ion-item>
+</ion-content>
+<ion-button color="success">Randevu al</ion-button>

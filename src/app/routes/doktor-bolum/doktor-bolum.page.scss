@@ -1,0 +1,16 @@
+
+#buttn{
+ 
+    padding-left: 70px;
+    --border-radius:10px;
+     --box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 10px #FFFFFF;
+     color: white;
+     font-style:bold;
+     
+ }
+ ion-toolbar{
+     .bordered{
+         --border-radius:10px;
+     }
+ }
+ 

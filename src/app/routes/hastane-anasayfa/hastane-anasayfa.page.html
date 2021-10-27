@@ -43,41 +43,49 @@
         <div class="div-card-radius" (click)="gSmartAdisyon()">
           <ion-icon name="list-outline"></ion-icon>
           <h4>
-            Adisyon
+            
           </h4>
-          <p style="font-size: 12px;">Hesabınızı görüntüleyin</p>
+          <p style="font-size: 12px;"></p>
         </div>
       </ion-col>
       <ion-col>
         <div class="div-card-radius" (click)="garsonCagir()">
           <ion-icon name="settings-outline"></ion-icon>
           <h4>
-            Personel
+            
           </h4>
           <p style="font-size: 12px;">
-            Lorem ipsum dolor sit amet
+            
           </p>
         </div>
       </ion-col>
       <ion-col>
         <div class="div-card-radius" (click)="hesapIste()">
-          <ion-icon name="water-outline"></ion-icon>
+          <ion-icon  name="water-outline"></ion-icon>
           <h4>
-            Hesap
+            
           </h4>
           <p style="font-size: 12px;">
-            Lorem ipsum dolor sit amet</p>
+            </p>
         </div>
       </ion-col>
     </ion-row>
   </ion-grid>
+  <div>
+
+  </div>
   <ion-grid>
     <ion-row>
-      <ion-col size="3" class="anasayfa-kategori" *ngFor="let bolum of hastaneBolumListesi">
-        <div>
-          <img [src]="bolum.Resim" />
+      <ion-col size="3" class="anasayfa-kategori"  *ngFor="let bolum of hastaneBolumListesi" (click)="bolumSayfasi(bolum)" >
+        
+        
+  
+        <div >
+          <img [src]="bolum.Resim" />        
         </div>
-        <small class="uc-nokta-bir-satir" [class.acik-kirmizi]="bolum.BolumID == -1">
+        
+        
+        <small   class="uc-nokta-bir-satir" [class.acik-kirmizi]="bolum.BolumID == -1">
           {{ bolum.Adi }}
         </small>
 

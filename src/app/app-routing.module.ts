@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'hastane-anasayfa',
     loadChildren: () => import('./routes/hastane-anasayfa/hastane-anasayfa.module').then( m => m.HastaneAnasayfaPageModule)
+  },
+  {
+    path: 'doktor-bolum',
+    loadChildren: () => import('./routes/doktor-bolum/doktor-bolum.module').then( m => m.DoktorBolumPageModule)
   }
 ];
 
